@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quero Pizza</string>
+    <string name="action_settings">Settings</string>
+    <string name="mt_pizza">Monte sua Pizza!</string>
+    <string name="email">E-mail</string>
+    <string name="tel">Telefone</string>
+    <string name="sou_cliente">Se você já é nosso Cliente.</string>
+    <string name="nao_cliente">Se você ainda não é nosso Cliente.</string>
+    <string name="senha">Senha</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="bt_cadastrar">Cadastre-se</string>
+    
+
+</resources>
