@@ -11,6 +11,10 @@
     <string name="senha">Senha</string>
     <string name="bt_entrar">Entrar</string>
     <string name="bt_cadastrar">Cadastre-se</string>
-    
+    <string name="cadastro">Efetue seu cadastro abaixo!</string>
+    <string name="nome">Nome</string>
+    <string name="endereco">Endereço</string>
+    <string name="confsenha">Confirma Senha</string>
+    <string name="bt_salvar">Salvar</string>
 
 </resources>
