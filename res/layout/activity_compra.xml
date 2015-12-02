@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".CadastroActivity" >
+    tools:context=".CompraActivity" >
 
     <TextView
         android:id="@+id/mtpizza"
@@ -122,11 +122,11 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btsalvar"
+        android:id="@+id/btok"
         android:layout_width="156dp"
         android:layout_height="36dp"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/mtpizza"
-        android:text="@string/bt_salvar" />
+        android:text="@string/bt_ok" />
 
 </RelativeLayout>

@@ -111,9 +111,9 @@
         android:id="@+id/btcadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/nao_cliente"
+        android:layout_below="@+id/tvnao_cliente"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="22dp"
         android:text="@string/bt_cadastrar" />
 
 </RelativeLayout>

@@ -8,43 +8,27 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class PrincipalActivity extends Activity {
-
-	Button btentrar, btcadastrar;
+public class CadastroActivity extends Activity {
 	
+	Button btsalvar;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_principal);
+		setContentView(R.layout.activity_cadastro);
 		
-		btcadastrar = (Button)
-				findViewById(R.id.btcadastrar);
+		btsalvar = (Button)
+				findViewById(R.id.btsalvar);
 		
-		btentrar = (Button)
-				findViewById(R.id.btentrar);
-		
-		btcadastrar.setOnClickListener(new View.OnClickListener() {
+    btsalvar.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
 				
 				Intent TrocaTela = new
-				Intent(PrincipalActivity.this,CadastroActivity.class);
-				PrincipalActivity.this.startActivity(TrocaTela);
-				PrincipalActivity.this.finish();
-				
-			}
-		});
-		
-        btentrar.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				
-				Intent TrocaTela = new
-				Intent(PrincipalActivity.this,CompraActivity.class);
-				PrincipalActivity.this.startActivity(TrocaTela);
-				PrincipalActivity.this.finish();
+				Intent(CadastroActivity.this,CompraActivity.class);
+				CadastroActivity.this.startActivity(TrocaTela);
+				CadastroActivity.this.finish();
 				
 			}
 		});
