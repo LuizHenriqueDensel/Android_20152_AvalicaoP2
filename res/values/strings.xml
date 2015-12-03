@@ -16,6 +16,17 @@
     <string name="endereco">Endereço</string>
     <string name="confsenha">Confirma Senha</string>
     <string name="bt_salvar">Salvar</string>
-    <string name="bt_ok">Ok</string>
+    <string name="bt_ok">OK</string>
+    <string name="escolha">Escolha seus ingredientes abaixo!</string>
+    <string name="cb_calabresa">Calabresa</string>
+    <string name="cb_frango">Frango</string>
+    <string name="cb_catupiry">Catupiry</string>
+    <string name="cb_cebola">Cebola</string>
+    <string name="cb_chocolate">Chocolate</string>
+    <string name="cb_amendoim">Amendoim</string>
+    <string name="cb_banana">Banana</string>
+    <string name="cb_cheddar">Cheddar</string>
+    <string name="cb_bacon">Bacon</string>
+    <string name="pos_escolha">Após a(s) escolha(s), clique no botão OK para finalizar seu pedido.</string>
 
 </resources>

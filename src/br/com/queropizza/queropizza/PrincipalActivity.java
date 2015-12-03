@@ -28,9 +28,9 @@ public class PrincipalActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				Intent TrocaTela = new
+				Intent cadastra = new
 				Intent(PrincipalActivity.this,CadastroActivity.class);
-				PrincipalActivity.this.startActivity(TrocaTela);
+				PrincipalActivity.this.startActivity(cadastra);
 				PrincipalActivity.this.finish();
 				
 			}
@@ -41,9 +41,9 @@ public class PrincipalActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				Intent TrocaTela = new
+				Intent entra = new
 				Intent(PrincipalActivity.this,CompraActivity.class);
-				PrincipalActivity.this.startActivity(TrocaTela);
+				PrincipalActivity.this.startActivity(entra);
 				PrincipalActivity.this.finish();
 				
 			}

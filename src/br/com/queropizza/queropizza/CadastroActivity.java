@@ -25,9 +25,9 @@ public class CadastroActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				Intent TrocaTela = new
+				Intent salva = new
 				Intent(CadastroActivity.this,CompraActivity.class);
-				CadastroActivity.this.startActivity(TrocaTela);
+				CadastroActivity.this.startActivity(salva);
 				CadastroActivity.this.finish();
 				
 			}

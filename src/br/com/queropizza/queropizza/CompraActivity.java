@@ -25,9 +25,9 @@ public class CompraActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				
-				Intent TrocaTela = new
+				Intent compra = new
 				Intent(CompraActivity.this,PrincipalActivity.class);
-				CompraActivity.this.startActivity(TrocaTela);
+				CompraActivity.this.startActivity(compra);
 				CompraActivity.this.finish();
 				
 			}

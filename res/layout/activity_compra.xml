@@ -9,117 +9,14 @@
     tools:context=".CompraActivity" >
 
     <TextView
-        android:id="@+id/mtpizza"
+        android:id="@+id/escolha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="@string/cadastro"
+        android:text="@string/escolha"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textSize="27sp" />
-
-    <LinearLayout
-        android:id="@+id/linearLayout1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/mtpizza"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="34dp"
-        android:orientation="vertical" >
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
-            
-        </LinearLayout>
-
-        <TextView
-            android:id="@+id/tvnome"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/nome"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/etnome"
-            android:layout_width="324dp"
-            android:layout_height="wrap_content"
-            android:ems="10" />
-
-        <TextView
-            android:id="@+id/tvtelefone"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tel"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/ettelefone"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" />
-
-        <TextView
-            android:id="@+id/tvendereco"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/endereco"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/etendereco"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" />
-
-        <TextView
-            android:id="@+id/tvemail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/email"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/etemail"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" />
-
-        <TextView
-            android:id="@+id/tvsenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/senha"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/etsenha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-        <TextView
-            android:id="@+id/tvconfsenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/confsenha"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="17sp" />
-
-        <EditText
-            android:id="@+id/etconfsenha"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPassword" />
-
-    </LinearLayout>
 
     <Button
         android:id="@+id/btok"
@@ -128,5 +25,96 @@
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/mtpizza"
         android:text="@string/bt_ok" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mtpizza"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp" >
+
+            <CheckBox
+                android:id="@+id/cb01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_calabresa" />
+
+            <CheckBox
+                android:id="@+id/cb02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_frango" />
+
+            <CheckBox
+                android:id="@+id/cb03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_catupiry" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp" >
+
+            <CheckBox
+                android:id="@+id/cb04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_cebola" />
+
+            <CheckBox
+                android:id="@+id/cb05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_chocolate" />
+
+            <CheckBox
+                android:id="@+id/cb06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_amendoim" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="333dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="92dp" >
+
+            <CheckBox
+                android:id="@+id/cb07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_banana" />
+
+            <CheckBox
+                android:id="@+id/cb08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_cheddar" />
+
+            <CheckBox
+                android:id="@+id/cb09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_bacon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pos_compra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btok"
+        android:layout_alignLeft="@+id/btok"
+        android:text="@string/pos_escolha"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp" />
 
 </RelativeLayout>
